@@ -1,5 +1,29 @@
 body{
-    background-color: pink;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:  24px;
+    background-color:#eceefc;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+h1{
+    font-size:24px;
+    text-align: center;
+
+}
+
+.form{
+    margin: 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.peom{
+     margin: 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
 }
