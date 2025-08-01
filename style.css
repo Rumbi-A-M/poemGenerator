@@ -11,17 +11,29 @@ h1{
 }
 
 .form{
-    margin: 50px;
+    margin: 0px;
     background-color: white;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 25px;
+}
+
+#Enter{
+    border: 1px solid blueviolet;
+    border-radius:6px;
+}
+
+button{
+    color: black;
+    background-color:blueviolet;
+    padding:20px;
+
 }
 
 .peom{
      margin: 50px;
     background-color: white;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 footer{
