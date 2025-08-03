@@ -17,12 +17,12 @@ function generatePoem(event) {
   let prompt = `User instructions: Generate a love poem about ${instructionsInput.value}`;
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  let poemElement = document.querySelector("#poem");
+  let poemElement = document.querySelector("#poemOutput");
   poemElement.classList.remove("hidden");
-  poemElement.innerHTML = `<div class="generating">⏳ Generating a Love poem about ${instructionsInput.value}</div>`;
+  poemElement.innerHTML = `<div class="poems">⏳ Generating a Love poem about ${instructionsInput.value}</div>`;
 
   axios.get(apiURL).then(displayPoem);
 }
 
-let poemFormElement = document.querySelector("#poemOutput");
+let poemFormElement = document.querySelector("#poem");
 poemFormElement.addEventListener("submit", generatePoem);
