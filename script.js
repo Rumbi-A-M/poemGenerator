@@ -24,5 +24,5 @@ function generatePoem(event) {
   axios.get(apiURL).then(displayPoem);
 }
 
-let poemFormElement = document.querySelector("#poem-generator-form");
+let poemFormElement = document.querySelector("#poem");
 poemFormElement.addEventListener("submit", generatePoem);
