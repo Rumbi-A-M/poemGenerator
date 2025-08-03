@@ -4,33 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>AI Love Poem Generator</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>AI French Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Love Poem Generator</h1>
+        <h1>AI French Poem Generator</h1>
       </header>
 
       <main>
-        <form id="poem">
+        <form id="poem-generator-form">
           <input
             type="text"
-            placeholder="Enter the topic of the Love poem"
+            placeholder="Enter the topic of the French poem"
             autofocus
             required
             autocomplete="off"
             class="instructions"
-            id="user-instruction"
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem hidden" id="poem"></div>
+        <div class="poem" id="poem"></div>
       </main>
-
-    
         <footer>
         <p> This AI project was coded by <a href="https://github.com/Rumbi-A-M">Rumbidzai Audrey Mateke </a> and hosted on <a href="https://poem-generators.netlify.app/">Netlify</a> </p>
 
